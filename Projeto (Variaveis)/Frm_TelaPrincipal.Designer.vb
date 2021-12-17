@@ -35,6 +35,7 @@ Partial Class Frm_TelaPrincipal
         Me.Btn_Subtracao = New System.Windows.Forms.Button()
         Me.Btn_Divisao = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Btn_Inteiros
@@ -93,21 +94,21 @@ Partial Class Frm_TelaPrincipal
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(39, 198)
+        Me.TextBox1.Location = New System.Drawing.Point(323, 168)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(75, 23)
         Me.TextBox1.TabIndex = 6
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(120, 198)
+        Me.TextBox2.Location = New System.Drawing.Point(404, 168)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(75, 23)
         Me.TextBox2.TabIndex = 7
         '
         'Btn_Soma
         '
-        Me.Btn_Soma.Location = New System.Drawing.Point(39, 235)
+        Me.Btn_Soma.Location = New System.Drawing.Point(323, 205)
         Me.Btn_Soma.Name = "Btn_Soma"
         Me.Btn_Soma.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Soma.TabIndex = 8
@@ -117,15 +118,16 @@ Partial Class Frm_TelaPrincipal
         'Lbl_Resultado
         '
         Me.Lbl_Resultado.AutoSize = True
-        Me.Lbl_Resultado.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Lbl_Resultado.Location = New System.Drawing.Point(117, 308)
+        Me.Lbl_Resultado.BackColor = System.Drawing.Color.LimeGreen
+        Me.Lbl_Resultado.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Lbl_Resultado.Location = New System.Drawing.Point(387, 292)
         Me.Lbl_Resultado.Name = "Lbl_Resultado"
-        Me.Lbl_Resultado.Size = New System.Drawing.Size(0, 15)
+        Me.Lbl_Resultado.Size = New System.Drawing.Size(0, 22)
         Me.Lbl_Resultado.TabIndex = 9
         '
         'Btn_Multiplicacao
         '
-        Me.Btn_Multiplicacao.Location = New System.Drawing.Point(39, 264)
+        Me.Btn_Multiplicacao.Location = New System.Drawing.Point(323, 234)
         Me.Btn_Multiplicacao.Name = "Btn_Multiplicacao"
         Me.Btn_Multiplicacao.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Multiplicacao.TabIndex = 10
@@ -134,7 +136,7 @@ Partial Class Frm_TelaPrincipal
         '
         'Btn_Subtracao
         '
-        Me.Btn_Subtracao.Location = New System.Drawing.Point(120, 235)
+        Me.Btn_Subtracao.Location = New System.Drawing.Point(404, 205)
         Me.Btn_Subtracao.Name = "Btn_Subtracao"
         Me.Btn_Subtracao.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Subtracao.TabIndex = 11
@@ -143,7 +145,7 @@ Partial Class Frm_TelaPrincipal
         '
         'Btn_Divisao
         '
-        Me.Btn_Divisao.Location = New System.Drawing.Point(120, 264)
+        Me.Btn_Divisao.Location = New System.Drawing.Point(404, 234)
         Me.Btn_Divisao.Name = "Btn_Divisao"
         Me.Btn_Divisao.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Divisao.TabIndex = 12
@@ -153,17 +155,29 @@ Partial Class Frm_TelaPrincipal
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(66, 168)
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Location = New System.Drawing.Point(317, 139)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(108, 15)
+        Me.Label1.Size = New System.Drawing.Size(167, 26)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Calculadora rústica"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Location = New System.Drawing.Point(364, 260)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(76, 22)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "Resultado"
         '
         'Frm_TelaPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(818, 332)
+        Me.ClientSize = New System.Drawing.Size(814, 332)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Btn_Divisao)
         Me.Controls.Add(Me.Btn_Subtracao)
@@ -198,5 +212,6 @@ Partial Class Frm_TelaPrincipal
     Friend WithEvents Btn_Subtracao As Button
     Friend WithEvents Btn_Divisao As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
 

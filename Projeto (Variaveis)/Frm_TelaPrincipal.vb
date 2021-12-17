@@ -21,8 +21,16 @@
         Dim float As Double
         Dim num As Random = New Random()
 
-        float = num.Next(0.2, 1000.0)
-        MsgBox(float, , "Número aleatório")
+        float = num.Next(0, 1000) + num.NextSingle()
+        MsgBox("O número gerado foi: " + float.ToString("####.000"), , "Número aleatório")
+    End Sub
+
+    Private Sub Btn_DbNegativo_Click(sender As Object, e As EventArgs) Handles Btn_DbNegativo.Click
+        Dim float As Double
+        Dim num As Random = New Random()
+
+        float = num.Next(-1000, 0) + num.NextDouble()
+        MsgBox("O número gerado foi: " + float.ToString("####.000"), , "Número aleatório")
 
 
     End Sub

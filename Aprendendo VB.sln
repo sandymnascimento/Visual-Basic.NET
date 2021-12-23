@@ -8,6 +8,11 @@ EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Projeto (Variaveis)", "Projeto (Variaveis)\Projeto (Variaveis).vbproj", "{311CC882-4A40-4B28-BEE6-0F8A5B94CBE3}"
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Projeto (Textos)", "Projeto (Textos)\Projeto (Textos).vbproj", "{B4CFC9C1-4DA7-491E-AF07-E3DAB0CB930E}"
+<<<<<<< HEAD
+=======
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Projeto (Controle de Fluxo)", "WinFormsApp1\Projeto (Controle de Fluxo).vbproj", "{BCC6FE11-B4FE-466D-92EC-22BC82E1A4A6}"
+>>>>>>> f87c6dd700ab3ca9012b65820c195a2ad90bc214
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +32,10 @@ Global
 		{B4CFC9C1-4DA7-491E-AF07-E3DAB0CB930E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4CFC9C1-4DA7-491E-AF07-E3DAB0CB930E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4CFC9C1-4DA7-491E-AF07-E3DAB0CB930E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC6FE11-B4FE-466D-92EC-22BC82E1A4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC6FE11-B4FE-466D-92EC-22BC82E1A4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC6FE11-B4FE-466D-92EC-22BC82E1A4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC6FE11-B4FE-466D-92EC-22BC82E1A4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
